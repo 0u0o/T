@@ -65,7 +65,7 @@ def ml_loop():
                 if platform_R < i:
                     comm.send_instruction(scene_info.frame, PlatformAction.MOVE_RIGHT)
                 ball_y = scene_info.ball[1]
-                break
+                
         ball_ex = ball_x
         
         
